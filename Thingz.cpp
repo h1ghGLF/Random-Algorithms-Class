@@ -1,6 +1,6 @@
 #include "Thingz.hpp"
 
-std::string Thingz::CipherEncrypt(std::string& input, int& shift) {
+std::string Thingz::CaesarCipherEncrypt(std::string& input, int& shift) {
 	std::string result = "";
 
 	for (unsigned int i = 0; i < input.length(); i++) {
