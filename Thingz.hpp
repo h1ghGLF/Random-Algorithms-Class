@@ -3,7 +3,7 @@
 
 class Thingz {
 public:
-	std::string CipherEncrypt(std::string& input, int& shift);
+	std::string CaesarCipherEncrypt(std::string& input, int& shift);
 
 	std::string XorEncrypt(const std::string& input, const int& key);
 
